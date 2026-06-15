@@ -90,7 +90,7 @@ Key results:
 git clone https://github.com/utkarshh-singh/Recurrent_Quantum_Featue_Maps_for_Reservoir_Computing.git
 cd Recurrent_Quantum_Featue_Maps_for_Reservoir_Computing
 
-pip install -r noise_study/requirements.txt
+pip install -r requirements.txt
 ```
 
 ---
