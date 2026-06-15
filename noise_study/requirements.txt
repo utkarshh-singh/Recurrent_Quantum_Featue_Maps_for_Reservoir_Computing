@@ -1,0 +1,14 @@
+datasets==4.8.2
+ESN==0.0.1
+matplotlib==3.10.8
+numpy==2.4.3
+pandas==3.0.1
+PyYAML==6.0.2
+PyYAML==6.0.3
+qiskit==1.4.2
+qiskit_aer==0.17.1
+qiskit_ibm_runtime==0.41.1
+scikit_learn==1.8.0
+scipy==1.17.1
+seaborn==0.13.2
+tqdm==4.67.1
