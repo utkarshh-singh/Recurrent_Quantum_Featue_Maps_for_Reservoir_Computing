@@ -18,11 +18,12 @@ Official code repository for the paper:
 
 Reservoir computing is a fast training paradigm for temporal tasks where only a linear readout is trained on top of a fixed dynamical system. This work introduces a **quantum reservoir** built from **recurrent quantum feature maps**: at each timestep, a fixed quantum circuit encodes the current input *and* a classical feedback signal from the previous reservoir output, used for prediction.
 
-Key contributions:
-- Proposes the **CP feature map** as the quantum encoding for reservoir computing
-- Outperforms classical baselines (ESN, MLP) and ZZFeatureMap-based QRC on Mackey-Glass time-series prediction
-- Analyzes **memory capacity** and its relationship to entanglement
-- Conducts a systematic **noise robustness study** across 1Q/2Q depolarizing, readout, and relaxation (T1) noise channels
+Key results:
+- Achieves **lower mean squared error** than classical baselines (Echo State Networks and MLPs) on the Mackey-Glass time-series prediction task
+- Uses the recently introduced **CP feature map** as the quantum encoding
+- Maintains compact **circuit depth and qubit count**, making it practical for near-term hardware
+- Demonstrates strong **memory capacity**, consistent with forecasting accuracy
+- Analyzes **noise robustness**: performance is stable under most noise channels but sensitive to two-qubit gate errors
 
 ---
 
