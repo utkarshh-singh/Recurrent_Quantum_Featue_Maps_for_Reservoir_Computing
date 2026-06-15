@@ -16,7 +16,7 @@ Official code repository for the paper:
 
 ## Overview
 
-Reservoir computing is a fast training paradigm for temporal tasks where only a linear readout is trained on top of a fixed dynamical system. This work introduces a **quantum reservoir** built from **recurrent quantum feature maps**: at each timestep, a fixed quantum circuit encodes the current input *and* a classical feedback signal from the previous reservoir output, producing a 512-dimensional state vector (9 qubits) used for prediction.
+Reservoir computing is a fast training paradigm for temporal tasks where only a linear readout is trained on top of a fixed dynamical system. This work introduces a **quantum reservoir** built from **recurrent quantum feature maps**: at each timestep, a fixed quantum circuit encodes the current input *and* a classical feedback signal from the previous reservoir output, used for prediction.
 
 Key contributions:
 - Proposes the **CP feature map** as the quantum encoding for reservoir computing
