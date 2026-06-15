@@ -1,0 +1,14 @@
+matplotlib==3.11.0
+matrices==0.1.0
+numpy==2.4.6
+pandas==3.0.3
+PyYAML==6.0.2
+PyYAML==6.0.3
+qiskit==1.1.2
+qiskit_aer==0.17.1
+qiskit_braket_provider==0.14.4
+qiskit_ibm_runtime==0.39.0
+scikit_learn==1.9.0
+scipy==1.17.1
+seaborn==0.13.2
+tqdm==4.67.1
